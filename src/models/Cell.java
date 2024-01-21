@@ -11,9 +11,13 @@ public class Cell {
 
     public void ToString(){
         char symbol = '_';
-        if(this.player != null && this.player.getSymbol() != '\u0000')
+        if(this.isOccupied())
             symbol = this.player.getSymbol();
         System.out.print(symbol);
+    }
+
+    public boolean isOccupied(){
+        return this.player != null && this.player.getSymbol() != '\u0000';
     }
 
     public int getRow() {

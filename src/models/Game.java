@@ -2,7 +2,8 @@ package models;
 
 import java.util.ArrayList;
 import java.util.List;
-import models.WinningStrategies.WinningStrategy;
+
+import models.strategies.WinningStrategies.WinningStrategy;
 
 public class Game {
     private Board board;

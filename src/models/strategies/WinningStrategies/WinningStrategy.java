@@ -1,4 +1,4 @@
-package models.WinningStrategies;
+package models.strategies.WinningStrategies;
 
 import models.Board;
 import models.Cell;

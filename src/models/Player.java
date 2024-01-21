@@ -17,4 +17,5 @@ public abstract class Player {
     private char symbol;
     private int rank;
     private PlayerType playerType;
+    public abstract Cell nextMove(Board board);
 }
